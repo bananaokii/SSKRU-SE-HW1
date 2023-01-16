@@ -2,7 +2,6 @@
     ตัวอย่างสามารถดูได้ในโปรแกรม calculator ใน windows 
 
     Reference: https://www.w3schools.com/cssref/index.php
-    Thai:      https://www.w3bai.com/th/cssref/default.html
 */
 
 /* ส่วนตัวของเว็บ */
@@ -18,12 +17,14 @@ body{
 /* ส่วนหัวข้อของหน้าเว็บ */
 h1{
     /* ตั้งค่าขนาดฟ้อนท์ให้ไม่เล็กกว่า 20 pixels และใหญ่เท่ากับ 20px บวกกับ 3% ของ viewport ฝั่งที่เล็กสุด */
-    font-size: calc(20px + 3vmin);
+    font-size: calc(30px + 3vmin);
+    background-color: blueviolet;
 }
 
 /* ส่วนตัวเครื่องคิดเลข */
 #calc{
-
+ background-color: chartreuse;
+ margin: auto;
 }
 
 /* ส่วนแสดงผลตัวเลข */
@@ -36,10 +37,10 @@ h1{
     /* กว้าง 40% ของจอ สูง 10% ของจอ */
     width: 40vw;
     height: 10vh;
-
+    margin: auto;
     /* กว้างไม่ต่ำกว่า 200 pixels   */
     min-width: 200px;
-    
+   background-color: aqua;
 }
 
 #inputPanel{
@@ -55,17 +56,17 @@ h1{
 }
 
 .bt{
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
 }
 
 #zero{
-    width: 40px;
-    color: aqua;
+    width: 80px;
 }
 
 .bt-num{
-
+background-color: aqua;
 }
 
 .bt-ops{
@@ -73,11 +74,13 @@ h1{
 }
 
 .bt-del{
-
+    width: 80px;
+    background-color: crimson;
 }
 
 .bt-clear{
-
+    width: 80px;
+    background-color: crimson;
 }
 
 .bt-optional{
